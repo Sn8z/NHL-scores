@@ -1,0 +1,41 @@
+:host {
+	min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: #151515;
+}
+
+header {
+	background: transparent;
+	flex: 0 1 6em;
+	color: var(--text-color);
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5em;
+	position: sticky;
+	top: 0;
+	z-index: 1337;
+}
+
+nav {
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+main {
+	background: transparent;
+	flex: 1;
+	color: var(--text-secondary-color);
+}
+
+footer {
+	background: #050505;
+	flex: 0 1 5em;
+	color: var(--text-secondary-color);
+	justify-content: center;
+	align-items: center	;
+}

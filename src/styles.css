@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+/* Imports */
+@import "assets/styles/buttons.css";
+
+/* Reset */
+* { 
+	box-sizing: border-box; 
+}
+
+html, body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+div,
+html,
+body,
+nav,
+hgroup,
+header,
+main,
+footer,
+section,
+article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+/* CSS Custom properties */
+:root {
+	--text-color: #d14141;
+	--text-secondary-color: #c9c9c9;
+}

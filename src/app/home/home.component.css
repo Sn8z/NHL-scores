@@ -1,0 +1,13 @@
+:host {
+	padding: 1em;
+}
+
+.upcoming-game {
+	flex: 0 1 auto;
+	background: #222;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}

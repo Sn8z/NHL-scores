@@ -1,9 +1,14 @@
 <header>
 	<h2>NHL Scores</h2>
+	<nav>
+		<button class="menu-btn" [routerLink]="['/home']" [routerLinkActive]="['is-active']">Home</button>
+		<button class="menu-btn" [routerLink]="['/schedule']" [routerLinkActive]="['is-active']">Schedule</button>
+		<button class="menu-btn" [routerLink]="['/teams']" [routerLinkActive]="['is-active']">Teams</button>
+	</nav>
 </header>
 <main>
-	<p>Main content!</p>
+	<router-outlet></router-outlet>
 </main>
 <footer>
-	<p>Footer</p>
+	<p>Made by Sn8z</p>
 </footer>

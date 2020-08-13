@@ -1,0 +1,21 @@
+/* Menu buttons */
+button.menu-btn {
+	border: none;
+	font-size: 1em;
+	color: var(--text-secondary-color);
+	background: transparent;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+button.menu-btn:hover {
+	transform: translateY(-2px);
+	color: var(--text-color);
+}
+
+button.menu-btn.is-active {
+	color: var(--text-color);
+	border-bottom: 1px solid var(--text-secondary-color);
+}

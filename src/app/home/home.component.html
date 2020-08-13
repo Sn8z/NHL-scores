@@ -1,0 +1,6 @@
+<h2>Today</h2>
+<div class="upcoming-game" *ngFor="let g of games">
+	<p>{{ g.teams.home.team.name }} vs. {{ g.teams.away.team.name }}</p>
+	<p>{{ g.venue.name }}</p>
+	<p>{{ g.gameDate | localTimePipe }}</p>
+</div>
